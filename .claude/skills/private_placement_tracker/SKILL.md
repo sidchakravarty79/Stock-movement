@@ -1,5 +1,5 @@
 ---
-name: dashboard-memo-linker
+name: private_placement_tracker
 description: Link supporting documentation (investment memos, closing docs, pitch emails) into the Coaction Private Placement Pipeline dashboard's Funded Allocations table, at https://claude.ai/artifact/S9PebabLqHDyn36u938xBq (edit URL https://claude.ai/code/artifact/cba05fc6-0369-420c-bf8c-b6dc594a00e8). Use this whenever Sidd asks to "link the memo", "add the document", "pull up the backup", or "show detail" for a deal row in that dashboard's Coaction Allocations tab — and proactively whenever a new funded deal is added to that dashboard's `allocations` array, since every funded row should eventually carry a link + hover summary. Do not use this for other dashboards or artifacts; the link patterns here were tested specifically against this artifact's sandboxed iframe and may not generalize.
 ---
 
